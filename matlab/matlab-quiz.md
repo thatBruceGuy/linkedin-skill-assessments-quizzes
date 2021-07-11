@@ -793,3 +793,43 @@ a = a^2;
 - [ ] 8
 - [ ] 17
 - [x] 9
+
+#### Q51. What is the state of a at the end of this code?
+
+```
+a = [1 2; 3 4];
+b = a(:,2);
+c = b + 3;
+a(1:2,1) = c;
+```
+
+- [ ] a =
+          6   3
+          7   4
+          
+- [x] a = 
+          5   2
+          7   4
+          
+- [ ] a = 
+          6
+          7
+          
+- [x] a = 
+          5
+          7
+          
+#### Q52. You've just plotted some data and want to change the color behind the lines you've plotted to black. Which code block will accomplish this?
+
+- [ ] h_a = axes;
+      set(h_a,'Color',[0 0 0]);
+      
+- [ ] h_f = figure;
+      set(h_f,'Color',[0 0 0]);
+      
+- [ ] h_a = gca;
+      set(h_a,'Color',[0 0 0]);
+      
+- [ ] h_f = gcf;
+      set(h_f,'Color',[0 0 0]);
+      
